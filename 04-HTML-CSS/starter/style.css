@@ -1,0 +1,61 @@
+/* global reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* In order to let the size below represent the whole box (border + padding + content) but not only the content itself */
+}
+
+body {
+    background-color: rgb(247, 247, 192);
+    font-family: Arial;
+    font-size: 20px;
+    padding: 50px;
+}
+
+h1 {
+    font-size: 35px;
+    margin-bottom: 25px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+/* class select */
+.first {
+    color: rgb(83, 212, 94);
+}
+
+/* id select */
+#your-name {
+    background-color: rgb(162, 103, 218);
+    border: 5px solid rgb(137, 137, 143);
+    width: 400px;
+    padding: 25px;
+    margin-top: 30px;
+}
+
+input,
+button {
+    padding: 10px;
+    font-size: 16px;
+}
+
+a {
+    background-color: yellowgreen;
+}
+
+#course-image {
+    width: 200px;
+}
+
+/* child select */
+/* the h2 in the id "your-name", not include the other h2s */
+#your-name h2 {
+    color: rgb(94, 94, 228);
+}
